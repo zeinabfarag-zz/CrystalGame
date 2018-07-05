@@ -1,0 +1,56 @@
+body {
+  background: url(../images/background.jpeg);
+  background-size: cover;
+  font-size: 18px;
+  font-weight: 450;
+  color: #f0ffff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.instructions,
+.value,
+.counter,
+.score {
+  background-color: rgb(135, 206, 250, 0.5);
+  margin-bottom: 10px;
+}
+
+#yourvalue {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+#totalscore {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#blue,
+#yellow {
+  width: 150px;
+  height: 150px;
+}
+
+#green {
+  width: 120px;
+  height: 130px;
+}
+
+#red {
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+}
+
+.score {
+  text-align: center;
+}
