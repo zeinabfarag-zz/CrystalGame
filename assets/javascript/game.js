@@ -43,6 +43,8 @@ $("#green").on("click", function() {
 });
 
 function winLose() {
+  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+
   if (yourValue === totalValue) {
     $("#message").html("You Win!");
     winCounter++;

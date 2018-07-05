@@ -54,3 +54,6 @@ h1 {
 .score {
   text-align: center;
 }
+#message {
+  font-weight: bold;
+}
